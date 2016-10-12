@@ -1,0 +1,15 @@
+{
+  "name": "init-node",
+  "description": "Initialize repository, ci, and coverage for node packages.",
+  "repository": "git://github.com/joshrtay/init-node.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
