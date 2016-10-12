@@ -9,6 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
+    "@f/log-error": "^1.0.0",
     "prosh": "^1.2.4"
   },
   "devDependencies": {
